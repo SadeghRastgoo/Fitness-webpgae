@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:root {
+  --custom-property: 5rem;
+}
+body {
+  font-size: var(--custom-property, 16px);
+}
